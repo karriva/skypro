@@ -1,0 +1,48 @@
+[
+    { "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "admin",
+            "password": "123"
+        }
+    },
+    { "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "noadmin",
+            "password": "123"
+        }
+    },
+{
+    "model": "skypro_testdjango.data",
+    "pk": 1,
+    "fields": {
+        "status": "working",
+        "grade": "master",
+        "specialty": "it",
+        "salary": 10000,
+        "education": "sfvrerbewrb",
+        "experience": "efdbwerbrberb",
+        "title": "roman nikolaev",
+        "phone": "89999999999",
+        "email": "roman@no.no",
+        "author": 1
+    }
+},
+{
+    "model": "skypro_testdjango.data",
+    "pk": 2,
+    "fields": {
+        "status": "vacation",
+        "grade": "master",
+        "specialty": "engineer",
+        "salary": 5000,
+        "education": "serfgbewbwertnbertn",
+        "experience": "webwrtbre",
+        "title": "james gunn",
+        "phone": "374951085646",
+        "email": "james@hoho.de",
+        "author": 1
+    }
+}
+]

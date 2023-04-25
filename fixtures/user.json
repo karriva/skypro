@@ -1,0 +1,16 @@
+[
+  { "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "admin",
+            "password": "123"
+        }
+    },
+    { "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "noadmin",
+            "password": "123"
+        }
+    }
+]
